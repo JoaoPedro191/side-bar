@@ -1,0 +1,33 @@
+@import url(./aside.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+@import url(./content-right.css);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+div#container-aside-content-right{
+  display: flex; 
+}
+
+body {
+  text-rendering: optimizeLegibility !important;
+ -webkit-font-smoothing: antialiased !important;
+  overflow-y: hidden;
+  background-color: black;
+}
+
+:root {
+  --body-bg-color: #dce4e3;
+  --green: #18c29c;
+  --light-green: #8ed7c6;
+	--light-grey: #dce4e3;
+  --text-color: #084236;
+  --background-button-aside-close: #DCE4E3;
+}
+

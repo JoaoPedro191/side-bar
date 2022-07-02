@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/global.css"> 
+  <title>Document</title>
+</head>
+<body>
+    
+  <div id="container-aside-content-right">
+   <aside id="aside" >
+       <header class="Header-Sidebar">
+         <div class="Content-Header">
+          <img src="./assets/logo.svg" alt="Logo mostrando uma cruz e uma pegada de pata de cachorro ou gato.">
+           <button onclick="openSideBar()">
+               <img class="ola" src="./assets/menu.svg" alt="Menu">
+           </button>
+         </div>    
+       </header>
+      <main id="Main-Container">
+          <div class="Container-Input">
+              <span>
+                <img src="./assets/search.svg" alt="Lupa">
+              </span>       
+             <input type="text" placeholder="Buscar">
+          </div>
+          <div class="Wrapper">
+              <div>
+                 <img src="./assets/grid.svg" alt="Grid">
+                  <p>Dashboad</p>
+              </div>
+              <div>
+                 <img src="./assets/pet.svg" alt="Pegada de pata de cachorro ou gato.">
+                 <p>Pets</p>
+              </div>
+              <div>
+                <img src="./assets/user.svg" alt="User">
+                <p>Clientes</p>
+              </div>
+              <div>
+                <img src="./assets/vet.svg" alt="User Vet">
+                <p>Vets</p>
+              </div>
+              <div>
+                <img src="./assets/settings.svg" alt="Engrenagem">
+                <p>Ajustes</p>
+              </div>
+        </div>
+        <footer>
+            <img src="./assets/avatar.svg" alt="Mulher de cabelos castanhos com bulsa cinza">
+             <div class="Content-Footer">
+                 <span>Eleanor Pena</span>
+                 <span>Veterinária</span>
+             </div>
+            <button onclick="openSideBar()" class="Log-Out">
+              <img  class="peido" src="./assets/log-out.svg" alt="Log-out">
+            </button>
+        </footer>
+     </main>
+   </aside>
+     <div class="content-right">
+         <h1>Dashboard</h1>      
+     </div>
+  </div>
+   <script src="./js/scripts.js"></script>
+</body>
+</html>

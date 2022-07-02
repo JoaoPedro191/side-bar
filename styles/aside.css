@@ -1,0 +1,44 @@
+aside#aside {
+   width: 250px;
+   height: 100vh;
+   background-color: var(--green);
+   transition: ease-in-out 0.5s;
+}
+
+/* ASIDE-CLOSE */
+aside#aside.Sidebar-Closed{
+   width: 78px;
+}
+
+aside#aside.Sidebar-Closed header.Header-Sidebar div.Content-Header > img{
+   display: none;
+}
+
+aside#aside.Sidebar-Closed main#Main-Container div.Container-Input span{
+   position: absolute;
+   left: 26px;
+   top: 87px;
+}
+
+aside#aside.Sidebar-Closed main#Main-Container div.Container-Input > input{
+   width: 50px;
+   height: 50px;
+   background-color: var(--background-button-aside-close);
+}
+
+aside#aside.Sidebar-Closed main#Main-Container div.Wrapper div > p{
+   opacity: 0;
+}
+
+aside#aside.Sidebar-Closed footer >  img,
+aside#aside.Sidebar-Closed footer > div.Content-Footer{
+   display: none;
+}
+
+
+aside#aside.Sidebar-Closed footer{
+   width: 78px;
+   padding: 18px 28px 18px 28px;
+}
+
+

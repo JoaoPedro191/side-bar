@@ -1,0 +1,55 @@
+div.Wrapper{
+  padding:  20px 0 0 27px ;
+}
+
+main#Main-Container div.Wrapper > div{
+  display: flex;
+  align-items: center;
+  column-gap: 16px ;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+
+main#Main-Container div.Wrapper div > p {
+  transition: ease-in 0.6s;
+}
+
+
+main#Main-Container div.Wrapper > div + div{
+  margin-top: 35px;
+}
+
+
+main#Main-Container > div.Container-Input {
+  margin-inline: 14px;
+} 
+
+main#Main-Container  div.Container-Input > span {
+  position: absolute;
+  top: 89px;
+  left: 31px;
+  z-index: 1;
+}
+
+main#Main-Container div.Container-Input > input{
+  transition: ease-in-out 0.5s;
+   position: relative;
+   font-size: 15px ;
+   font-weight: 400;
+   width: 222px;
+   height: 50px;
+   padding: 14px 0 14px 50px;
+   background-color: var(--light-green);
+   border: none;
+   outline: none;
+   border-radius: 12px;
+}
+
+main#Main-Container div.Container-Input > input::placeholder{
+  color: var(--text-color);
+}
+
+
+

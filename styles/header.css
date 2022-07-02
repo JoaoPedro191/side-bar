@@ -1,0 +1,19 @@
+header.Header-Sidebar{
+   padding: 24px 14px 26px 29px;
+}
+
+header.Header-Sidebar > div.Content-Header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header.Header-Sidebar div.Content-Header > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
