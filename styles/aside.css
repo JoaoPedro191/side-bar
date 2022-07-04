@@ -6,7 +6,7 @@ aside#aside {
 }
 
 /* ASIDE-CLOSE */
-aside#aside.Sidebar-Closed{
+aside#aside.Sidebar-Closed {
    width: 78px;
 }
 
@@ -14,31 +14,31 @@ aside#aside.Sidebar-Closed header.Header-Sidebar div.Content-Header > img{
    display: none;
 }
 
-aside#aside.Sidebar-Closed main#Main-Container div.Container-Input span{
+aside#aside.Sidebar-Closed main#Main-Container div.Container-Input span {
    position: absolute;
    left: 26px;
    top: 87px;
 }
 
-aside#aside.Sidebar-Closed main#Main-Container div.Container-Input > input{
+aside#aside.Sidebar-Closed main#Main-Container div.Container-Input > input {
    width: 50px;
    height: 50px;
    background-color: var(--background-button-aside-close);
 }
 
-aside#aside.Sidebar-Closed main#Main-Container div.Wrapper div > p{
+aside#aside.Sidebar-Closed main#Main-Container div.Wrapper div > p {
    opacity: 0;
 }
 
-aside#aside.Sidebar-Closed footer >  img,
+aside#aside.Sidebar-Closed footer >  img.peido,
 aside#aside.Sidebar-Closed footer > div.Content-Footer{
-   display: none;
+   opacity: 0;
+   visibility: 0; 
+   width: 0; 
 }
-
 
 aside#aside.Sidebar-Closed footer{
    width: 78px;
-   padding: 18px 28px 18px 28px;
+   padding: 18px 28px 18px 19px;
+   cursor: pointer;
 }
-
-

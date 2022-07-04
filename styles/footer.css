@@ -8,7 +8,7 @@ footer {
   height: 60px;
   padding: 8px 18px 8px 14px ;
   background-color: var(--light-green);
-  transition:  ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
 }
 
 footer > div.Content-Footer {
@@ -35,7 +35,5 @@ footer > button.Log-Out{
   cursor: pointer;
   background-color: transparent;
   border: none;
-  background-color: red;
-
 }
 
