@@ -19,7 +19,7 @@ body {
   text-rendering: optimizeLegibility !important;
  -webkit-font-smoothing: antialiased !important;
   overflow-y: hidden;
-  background-color: black;
+  background-color: var(--background-button-aside-close);
 }
 
 :root {
